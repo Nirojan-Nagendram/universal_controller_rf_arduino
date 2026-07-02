@@ -2,7 +2,7 @@
 
 This project is a general-purpose wireless controller built around an Arduino Nano and an nRF24L01 radio module, designed to be reused as the input for other hardware projects. It covers the full pipeline of getting a controller from planning layout to fully functioning: writing and debugging the Arduino firmware, transmitting and receiving data over radio, and building the physical unit by cutting and hand-soldering a point-to-point (P2P) prototype board rather than using a breadboard or off-the-shelf shield. A big part of the work was hardware-level debugging — diagnosing issues that only show up once code is running on real, soldered electronics rather than in simulation, having to use the serial terminal as to see what the board and radio module were actually doing.
 
-![controller_front](controller_front.jpg) 
+![controller_front](images/controller_front.jpg) 
 
 ## how to run
 1) **Hardware setup**
@@ -47,13 +47,13 @@ This project is a general-purpose wireless controller built around an Arduino Na
 
 ## Pictures
  *(picture 1)*: controller
- ![controller_front](controller_front.jpg) 
+ ![controller_front](images/controller_front.jpg) 
 
  *(picture 2)*: controller_back
- ![controller_back](controller_back.jpg) 
+ ![controller_back](images/controller_back.jpg) 
 
  *(picture 3)*: circuit_diagram
- ![controller_circuit_diagram](controller_circuit_diagram.png)
+ ![controller_circuit_diagram](images/controller_circuit_diagram.png)
 
 
 ## Known limitations
